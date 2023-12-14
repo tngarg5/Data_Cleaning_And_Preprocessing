@@ -1,4 +1,4 @@
-# Data Cleaning Cheat Sheet
+# Data Cleaning Sheet
 
 ## [Part 1 -Handling Missing Values]
 
