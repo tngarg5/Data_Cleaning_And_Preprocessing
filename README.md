@@ -147,9 +147,6 @@
 | **Creating Polynomial Features** | `from sklearn.preprocessing import PolynomialFeatures; poly = PolynomialFeatures(degree=2); df_poly = poly.fit_transform(df[['col1', 'col2']])` | Create polynomial features from selected columns. |
 | **Encoding Cyclical Features**   | `df['hour_sin'] = np.sin(df['hour'] * (2 * np.pi / 24))` | Encode cyclical features such as hour of day using sine function. |
 
-# [End of Data Cleaning Cheat Sheet]
-
-
 
 # Pandas Operations and Code Snippets
 
