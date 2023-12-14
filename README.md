@@ -163,6 +163,7 @@
 
 | **Operation**                               | **Pandas Code**                                           | **Description**                                                                                            |
 |----------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Select a subset             | `df_subset = df.iloc[300:500]`                       | Creates a new DataFrame with rows from index 300 to 500.                                              |
 | Filter Rows Based on a Condition             | `df_filtered = df[df['Age'] > 30]`                       | Creates a new DataFrame with rows where age is greater than 30.                                              |
 | Sort Data by Column                         | `df_sorted = df.sort_values(by='Age')`                  | Sorts the DataFrame by the 'Age' column in ascending order.                                                   |
 | Fill Missing Values                         | `df['Age'] = df['Age'].fillna(df['Age'].mean())`         | Fills missing values in the 'Age' column with the mean.                                                       |
